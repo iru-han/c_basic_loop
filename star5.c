@@ -1,12 +1,18 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+ //   *
+ //  ***
+ // *****
+ //  ***
+ //   *
+
 int main() {
 	int N = 5;
 	int half = (N + 1) / 2;
 	int space = half;
 	
-	for (int i = 0; i < N; i++) { // ¼¼·Î
+	for (int i = 0; i < N; i++) { // Â¼Â¼Â·ÃŽ
 		if (i < half) {
 			space--;
 		}
@@ -17,7 +23,7 @@ int main() {
 		int total_star = N - (space*2);
 		int star_count = 0;
 
-		for (int j = 0; j < N; j++) { // °¡·Î
+		for (int j = 0; j < N; j++) { // Â°Â¡Â·ÃŽ
 			if (j < space) {
 				printf(" ");
 			}
@@ -34,4 +40,5 @@ int main() {
 	}
 
 	return 0;
+
 }
