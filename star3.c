@@ -1,19 +1,26 @@
-//#define _CRT_SECURE_NO_WARNINGS
-//#include <stdio.h>
-//
-//int main() {
-//
-//	for (int i = 0; i <= 4; i++) {
-//		for (int j = 0; j <= 4; j++) {
-//			if (i + j < 4) { // i°¡ 0ÀÏ¶§ j´Â 0,1,2,3 / i°¡ 1ÀÏ¶§ j´Â 0,1,2 / i°¡ 2ÀÏ¶§ j´Â 0,1 / i°¡ 3ÀÏ¶§ j´Â 0
-//				printf(" ");
-//			}
-//			else {
-//				printf("*");
-//			}
-//		}
-//		printf("\n");
-//	}
-//
-//	return 0;
-//}
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+//     *
+//    **
+//   ***
+//  ****
+// *****
+
+int main() {
+
+	for (int i = 0; i <= 4; i++) {
+		for (int j = 0; j <= 4; j++) {
+			if (i + j < 4) { // iê°€ 0ì¼ë•Œ jëŠ” 0,1,2,3 / iê°€ 1ì¼ë•Œ jëŠ” 0,1,2 / iê°€ 2ì¼ë•Œ jëŠ” 0,1 / iê°€ 3ì¼ë•Œ jëŠ” 0
+				printf(" ");
+			}
+			else {
+				printf("*");
+			}
+		}
+		printf("\n");
+	}
+
+	return 0;
+
+}
