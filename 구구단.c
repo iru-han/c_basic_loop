@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-// 2╢э╨нем 9╢э╠НаЖ ╠╦╠╦╢э цБ╥б
+// 2К▀╗К╤─М└╟ 9К▀╗Й╧▄Л╖─ Л╤°К═╔
 int main() {
 	for (int i = 2; i <= 9; i++) {
 		for (int j = 2; j <= 9; j++) {
@@ -10,5 +10,6 @@ int main() {
 	}
 
 	return 0;
+
 
 }
